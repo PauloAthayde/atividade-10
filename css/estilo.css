@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+/* Estilos gerais */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  
+}
+
+header, #principal, #second, #contato, #stream {
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 1000px;
+  text-align:left right;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#logo img {
+  height: 100px;
+}
+
+nav {
+  margin: 0;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.item-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Links de menu com cores específicas */
+.link-menu {
+  color: #fff;
+  background-color: #555;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.link-menu.f {
+  background-color: #5b305a;
+}
+
+.link-menu.l {
+  background-color: #e49756;
+}
+
+.link-menu.m {
+  background-color: #e64858;
+}
+
+main {
+  background-color: #e49937;
+  color: #ddd;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+main.m {
+  background-color: #e64858;
+
+}
+#acesso.m {
+  background-color: #e64858;
+}
+
+#principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#principal figure {
+  flex: 1;
+  text-align: center;
+}
+
+#principal img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#sec_ctd {
+  flex: 1;
+}
+
+#sec_ctd h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Amatic SC', cursive;
+}
+
+#sec_ctd p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC', cursive;
+  color: #fff;
+}
+
+/* Seção secundária */
+#second {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 200px 0;
+  align-items: center;
+  object-position: 100px;
+  object-fit: contain;
+  
+}
+
+#second a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cartaz {
+  width: 30%;
+  text-align: center;
+}
+
+.cartaz img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+#email a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#email a:hover {
+  text-decoration: underline;
+}
+
+#social a img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+#social a img:hover {
+  opacity: 0.7;
+}
+
+/* Estilos específicos da página Filme */
+.f {
+  background-color: #5b305a;
+  justify-content: center;  
+  }
+
+#principal img {
+  border-radius: 0;
+}
+
+#sinopse {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+#sinopse b {
+  display: block;
+  margin-top: 10px;
+}
+
+#descricao iframe {
+  width: 300px;
+  max-width: 600px;
+  height: 300px;
+  align-items: center;
+}
+
+#acesso a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+#acesso a:hover {
+  text-decoration: underline;
+}
+#descricao{
+  width: 100px;
+  height: 250px;
+  border: 1px solid;
+  padding: 100px 300px 300px 100px;
+}
+#acesso{
+  border: 1px solid;
+  text-align: center;
+  background: chocolate;
+  color: #ffffff;
+  font-family:'Times New Roman', Times, serif ;
+  padding: 20px 10px 20px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  
+}
